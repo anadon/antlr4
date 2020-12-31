@@ -115,7 +115,7 @@ public static class IncContext extends ParserRuleContext {
 }
 ```
 
-ANTLR also provide support to access context objects when there is more than a single reference to a rule:
+ANTLR also provides support to access context objects when there is more than a single reference to a rule:
 
 ```
 field : e '.' e ;
